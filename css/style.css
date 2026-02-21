@@ -82,6 +82,9 @@ nav .search {
 .work .box .img:hover::before {
   transform: translateX(0);
 }
+.work .tabs {
+  justify-content: safe center;
+}
 .work .tabs li.active {
   background-color: var(--red-color);
   color: var(--yellow-color);
